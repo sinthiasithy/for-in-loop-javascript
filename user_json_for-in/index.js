@@ -23,5 +23,6 @@ let user = {
 // console.log(user.id);
  
 for(propty in user){
-  console.log(propty);
+  console.log(propty)
+  console.log(user[propty]);
  }

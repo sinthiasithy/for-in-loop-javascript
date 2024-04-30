@@ -49,6 +49,7 @@ let google = {
 // console.log(google.results[0].place_id);
 // console.log(google.results[0].types);
 // console.log(google.results[0].geometry);
-for(propty in google){
-  console.log(propty);
+for(let propty in google){
+  console.log(propty)
+  console.log(google[propty]);
 }

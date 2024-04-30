@@ -38,6 +38,7 @@ let colorList = {
 // console.log(colorList.colors[3].code);
 // console.log(colorList.colors[4].code.rgba);
 // console.log(colorList.colors[5].code.hex);
-for(propty in colorList){
-  console.log(propty + ': '+ colorList[propty]);
+for(let propty in colorList){
+  console.log(propty);
+
 }

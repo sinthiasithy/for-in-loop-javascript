@@ -29,5 +29,6 @@ let twitter = {
 // console.log(twitter.user.screen_name);
 // console.log(twitter.user.location);
 for(propty in twitter){
-  console.log(propty);
+  console.log(propty)
+  console.log(twitter[propty]);
  }

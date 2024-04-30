@@ -26,5 +26,6 @@ let testdata = {
 // console.log(testdata.user.email);
 // console.log(testdata.products);
 for(propty in testdata){
-  console.log(propty);
+  console.log(propty)
+  console.log(testdata[propty]);
 }

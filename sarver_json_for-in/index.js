@@ -17,5 +17,6 @@ let sarver = {
 // console.log(sarver.posts[0].id);
 // console.log(sarver.comments);
 for(propty in sarver){
-  console.log(propty);
+  console.log (propty)
+  console.log(sarver[propty]);
  }

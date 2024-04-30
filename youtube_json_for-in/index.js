@@ -45,5 +45,6 @@ let youtube = {
 // console.log(youtube.etag);
 // console.log(youtube.pageInfo);
 for(propty in youtube){
- console.log(propty);
+ console.log(propty)
+ console.log(youtube[propty]);
 }

@@ -33,10 +33,11 @@ let databass ={
       }
     ]
   }
-//   console.log(databass);
-// console.log(databass.data[3].id);
-// console.log(databass.data[1].name);
-// console.log(databass.data[4].city)
-for(propty in databass){
-  console.log(propty);
+// //   console.log(databass);
+// // console.log(databass.data[3].id);
+// // console.log(databass.data[1].name);
+// // console.log(databass.data[4].city)
+for(let key in databass){
+  console.log(key)
+  console.log(databass[key]);
 }

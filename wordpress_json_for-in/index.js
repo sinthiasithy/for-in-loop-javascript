@@ -38,5 +38,6 @@ let wordpress = {
 // console.log(wordpress.title);
 // console.log(wordpress.title.rendered);
 for(propty in wordpress){
-  console.log(propty);
+  console.log(propty)
+  console.log(wordpress[propty]);
  }

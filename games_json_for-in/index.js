@@ -53,6 +53,7 @@ let Game = {
 // console.log(Game.games[0].genre);
 // console.log(Game.games[0].release_date);
 // console.log(Game.games[0].developer);
-for(propty in Game){
-  console.log(propty);
+for(const key in Game){
+  console.log(key)
+  console.log(Game[key]);
 }

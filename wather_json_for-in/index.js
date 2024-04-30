@@ -568,5 +568,6 @@ let weather =
   // console.log(weather.list[4].coord.lat);
  
   for(propty in weather){
-    console.log(propty);
+    console.log(propty)
+    console.log(weather[propty]);
    }
